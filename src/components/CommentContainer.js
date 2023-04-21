@@ -74,7 +74,7 @@ const commentsData = [
 ]
 
 const Comment = ({data}) => {
-    const { name, text, replies } = data
+    const { name, text } = data
     return <div className='flex shadow-sm bg-gray-100 p-2 rounded-lg m-2'>
         <img className='w-8 h-8' alt='userImg' src='https://cdn-icons-png.flaticon.com/512/1077/1077114.png'/>
 
